@@ -45,5 +45,5 @@ Reason: <...>
             response = model.generate_content(prompt)
             result = response.text.strip()
 
-        st.subheader("🧠 Gemini's Assessment")
+       
         st.text(result)
